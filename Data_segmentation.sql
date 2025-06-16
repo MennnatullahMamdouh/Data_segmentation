@@ -14,7 +14,7 @@ GROUP BY product_key,product_name,cost
 SELECT cost_range,
 count(product_key) AS 'segment_num'
 FROM segment_count
-GROUP BY cost_range
+GROUP BY cost_range 
 ORDER BY segment_num DESC
 ;
 
