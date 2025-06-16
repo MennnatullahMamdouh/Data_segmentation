@@ -1,4 +1,5 @@
 ---segment products into cost range & how many products fall into each segment
+--test github upload
 WITH segment_count AS (
 SELECT 
 product_key,
